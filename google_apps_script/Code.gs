@@ -65,7 +65,7 @@ function updateStock(sheet, barcode, quantity) {
   for (var i = 1; i < data.length; i++) {
     if (data[i][0] == barcode) {
       // Update existing row
-      var currentQty = parseInt(data[i][2]) || 0;
+      var currentQty = parseInt(data[i][2], 10) || 0;
       var newQty = currentQty + quantity;
       
       sheet.getRange(i + 1, 3).setValue(newQty); // Update quantity
@@ -107,7 +107,7 @@ function getStockQuantity(sheet, barcode) {
   
   for (var i = 1; i < data.length; i++) {
     if (data[i][0] == barcode) {
-      return parseInt(data[i][2]) || 0;
+      return parseInt(data[i][2], 10) || 0;
     }
   }
   

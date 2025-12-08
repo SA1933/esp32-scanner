@@ -7,6 +7,7 @@
 
 #include <HTTPClient.h>
 #include <Preferences.h>
+#include "config.h"
 
 class HTTPClientManager {
 private:

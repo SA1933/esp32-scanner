@@ -8,6 +8,7 @@
 #include <WiFi.h>
 #include <Preferences.h>
 #include <WebServer.h>
+#include "config.h"
 #include "display_manager.h"
 
 class WiFiManager {

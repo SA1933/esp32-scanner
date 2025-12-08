@@ -6,6 +6,7 @@
 #define SCANNER_MANAGER_H
 
 #include <HardwareSerial.h>
+#include "config.h"
 
 class ScannerManager {
 private:

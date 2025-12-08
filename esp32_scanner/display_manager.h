@@ -6,6 +6,7 @@
 #define DISPLAY_MANAGER_H
 
 #include <LiquidCrystal_I2C.h>
+#include "config.h"
 
 class DisplayManager {
 private:
