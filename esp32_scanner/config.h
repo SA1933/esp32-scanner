@@ -25,7 +25,7 @@ const char* AP_PASSWORD = "";
 #define KEYPAD_DEBOUNCE 200
 #define DISPLAY_DELAY 1000 
 
-const char* GAS_URL = "-PUT YOUR APP SCRIPT HERE-";
+const char* GAS_URL = "--APP SCRIPT--";
 
 const char* API_KEY = "";
 
