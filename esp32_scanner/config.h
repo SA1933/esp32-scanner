@@ -21,13 +21,11 @@ const char* AP_PASSWORD = "";
 #define KEYPAD_C3 33
 #define KEYPAD_C4 32
 
-#define WIFI_TIMEOUT 6000  
-#define KEYPAD_DEBOUNCE 200
-#define DISPLAY_DELAY 1000 
+#define WIFI_TIMEOUT 6000      // 6 seconds
+#define KEYPAD_DEBOUNCE 200    // 200ms
+#define DISPLAY_DELAY 1000     // 1 second
 
-const char* GAS_URL = "--APP SCRIPT--";
-
-const char* API_KEY = "";
+const char* GAS_URL = "//your google apps script here";
 
 #define LCD_COLS 20
 #define LCD_ROWS 4
