@@ -146,8 +146,8 @@ Open Serial Monitor (115200 baud) to:
 #define SCANNER_BAUD 9600
 
 // Wi-Fi AP credentials
-#define AP_SSID "ESP32-Scanner-Config"
-#define AP_PASSWORD "12345678"
+#define AP_SSID "you AP name here"
+#define AP_PASSWORD "here is your password (optioinal)"
 
 // HTTP retry settings
 #define MAX_RETRIES 3
