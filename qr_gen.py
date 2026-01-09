@@ -3,8 +3,8 @@ import os
 import sys
 import qrcode
 
-INPUT_FILE = Path(os.getenv("SKU_INPUT", "qr_gen/sku.txt"))
-OUTPUT_DIR = Path(os.getenv("SKU_OUTPUT_DIR", Path(__file__).with_name("qr_png")))
+INPUT_FILE = Path("here is location of txt file that contain qr name")
+OUTPUT_DIR = Path("here is output folder location")
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
