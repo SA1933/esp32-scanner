@@ -33,7 +33,7 @@ A complete ESP32-based handheld barcode scanner that scans items, prompts for qu
 - GND → GND
 
 #### Barcode Scanner (Serial)
-- RX → GPIO 16 (ESP32 TX2)
+- RX → GPIO 16 (ESP32 TX2) // while upload code pull this out 
 - TX → GPIO 17 (ESP32 RX2)
 - VCC → 5V
 - GND → GND
@@ -45,7 +45,7 @@ Install these libraries via Arduino Library Manager:
 
 1. **ESP32 Board Support** (v2.0.0 or higher)
    - File > Preferences > Additional Board Manager URLs
-   - Add: `https://dl.espressif.com/dl/package_esp32_index.json`
+   - Add: `https://dl.espressif.com/dl/package_esp32_index.json` // this is necessary
    - Tools > Board Manager > Install "esp32"
 
 2. **LiquidCrystal_I2C** (v1.1.2 or higher)
